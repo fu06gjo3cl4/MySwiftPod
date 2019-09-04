@@ -1,0 +1,25 @@
+{
+  "name": "MySwiftPod",
+  "version": "0.1.0",
+  "summary": "My swift version pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fu06gjo3cl4/MySwiftPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fu06gjo3cl4": "fu06gjo3cl4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fu06gjo3cl4/MySwiftPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MySwiftPod/**/*.{swift,h,m}",
+  "resources": "MySwiftPod/**/*.{xib,json}",
+  "swift_versions": "4.0",
+  "swift_version": "4.0"
+}
