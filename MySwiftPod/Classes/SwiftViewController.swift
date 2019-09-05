@@ -9,10 +9,10 @@ import UIKit
 
 @objc public class SwiftViewController: UIViewController {
     
-    @objc convenience public init() {
-        let bundle = Bundle(identifier: "org.cocoapods.MySwiftPod")
-        self.init(nibName: "SwiftViewController", bundle: bundle)
-    }
+//    @objc convenience public init() {
+//        let bundle = Bundle(identifier: "org.cocoapods.MySwiftPod")
+//        self.init(nibName: "SwiftViewController", bundle: bundle)
+//    }
 
     public override func viewDidLoad() {
         super.viewDidLoad()
