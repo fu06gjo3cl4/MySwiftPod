@@ -9,6 +9,10 @@ import Foundation
 
 @objc public class MySwiftPod:NSObject{
     
+    @objc public override init() {
+        
+    }
+    
     @objc public let bundle_ID = "org.cocoapods.MySwiftPod"
     
     
