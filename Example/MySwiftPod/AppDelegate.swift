@@ -18,7 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let vc = SwiftViewController()
+//        let vc = SwiftViewController()
+        
+        let bundle = Bundle(identifier: "org.cocoapods.MySwiftPod")
+        let vc = SwiftViewController(nibName: "SwiftViewController", bundle: bundle)
+        
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
         

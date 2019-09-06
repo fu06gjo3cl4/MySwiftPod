@@ -13,7 +13,9 @@ import Foundation
         
     }
     
-    @objc public let bundle_ID = "org.cocoapods.MySwiftPod"
+    
+    
+    @objc public static let bundle_ID = "org.cocoapods.MySwiftPod"
     
     
 }

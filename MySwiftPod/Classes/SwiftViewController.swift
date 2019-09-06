@@ -17,4 +17,11 @@ import UIKit
     public override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction public func btn_Touch(_ sender: Any) {
+        
+        print("btn_Touched")
+        
+    }
+    
 }
