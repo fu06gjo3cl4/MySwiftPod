@@ -24,4 +24,9 @@ import UIKit
         
     }
     
+    @objc public func printSomeThing(){
+        print("some msg from swift pod.")
+    }
+    
+    
 }
